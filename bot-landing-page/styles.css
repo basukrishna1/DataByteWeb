@@ -199,7 +199,7 @@ color: #ffffff;
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
 
     .DrugRadar{
         font-size: 38px;
