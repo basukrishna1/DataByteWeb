@@ -19,15 +19,38 @@ body {
   margin: 5px;
   background-color: #f9f9f9;
   position: relative;
-  transition: ease all .5s;
+  transition: ease all 0.3s;
 }
 
-.member:hover {
+.member :hover {
+ 
+  /* scale: 1.05; */
+  background-color: #f9f9f9;
+  color: #f9f9f9;
+  transition: ease all 0.3s;
+  border-radius: 20px;
+  /* box-shadow: 2px 2px  grey; */
+}
+
+.member h2:hover {
+ 
   scale: 1.05;
-   background-color: rgb(20, 36, 50);
+  background-color: rgb(20, 36, 50);
+  color: #f9f9f9;
+  transition: ease all 0.3s;
+  border-radius: 20px;
+
 }
 
-.member:before, .member:after {
+.member p:hover {
+ 
+  scale: 1.05;
+  background-color: rgb(20, 36, 50);
+  color: #f9f9f9;
+  transition: ease all 0.3s;
+  border-radius: 20px;
+}
+/* .member:before, .member:after {
     z-index: -1;
     position: absolute;
     content: "";
@@ -39,7 +62,8 @@ body {
     background: #000;
     box-shadow: 0 15px 15px rgba(0,0,0,.5);
     transform: rotate(-3deg);
-}
+} */
+
 
 .member:after {
     transform: rotate(3deg);
@@ -49,16 +73,16 @@ body {
 
 .member img {
   width: 150px;
-  height: auto;
-  border: 5px solid #fff;
-  border-radius: 50%;
+  height: 150px;
+  /* border: 5px solid #fff; */
+  border-radius: 15%;
   margin: 15px auto;
   display: block;
-  box-shadow: 0 0 2px rgba(0,0,0, .2);
+  box-shadow: 2px 2px 2px rgba(0,0,0, .2);
 }
 
 .member h2 {
-  color: #424242;
+  color: #0b0a0a;
   text-align: center;
   width: 200px;
   display: block;
@@ -67,6 +91,7 @@ body {
   font-size: 18px;
   font-weight: 300;
 }
+
 
 .who {
   font-family: 'Roboto', sans-serif;
@@ -83,12 +108,13 @@ body {
 }
 
 .member-text {
-  width: 80%;
+  width: 100%;
+  height: 5%;
   text-align: center;
-  margin: 12px auto;
+  margin: 10px auto;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
-  color: #424242;
+  color: #2d2c2c;
 }
 
 .soc-icons a {
@@ -99,8 +125,8 @@ body {
   border: 1px solid  #fdfdfd;
   box-shadow: 0 0 1px rgba(0,0,0,.2);
   border-radius: 2px;
-  display: inline-block;
-  width: 20px; 
+  display:inline-block;
+  width: 30px; 
   transition: ease all .3s;
 }
 
@@ -108,15 +134,13 @@ body {
   background-color: #26C6DA;
   border: 1px solid #26C6DA;
   color: #fff;
+  display:inline-block;
 }
 
 .soc-icons a:active {
   background-color: #9FA8DA;
   border: 1px solid #9FA8DA;
   color: #fff;
-}
-
-.soc-icons {
-  margin: 20px auto;
-  text-align: center;
+  display:inline-block;
+ 
 }
